@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-cp Assignment.ipynb Assignment.backup.ipynb
+cp assignment-lab.ipynb assignment-lab.backup.ipynb
 git commit -am "My progress so far."
 git pull --no-edit upstream main -X ours
