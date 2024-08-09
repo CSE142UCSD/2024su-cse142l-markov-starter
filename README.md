@@ -1,7 +1,7 @@
 # Introduction to the Development Environment
 
 
-This lab is in a Jupyter notebook (`Assignment.ipynb`).  To run it'll you'll need to
+This lab is in a Jupyter notebook (`assignment-lab.ipynb`).  To run it'll you'll need to
 check out the assignment.
 
 This document describe how to do those two things.  Then, you'll be able to
@@ -21,9 +21,9 @@ The content for each lab will be distributed via github classroom.
 So, to do the assignment of this course, you need:
 1. You'll need to log into https://escalab.org/datahub to run a jupyter notebook. 
 2. Tha asssignment from github classroom.  Find the link on the course 
-home page: https://www.escalab.org/classes/cs203-2024sp/
+home page: https://www.escalab.org/classes/cse142l-2024su/
 
-## Connecting to CS203 jupyterhub 
+## Connecting to cse142l jupyterhub 
 
 The first step is to navigate your browser to 
 https://escalab.org/datahub
@@ -60,20 +60,20 @@ and stop your server and then restart it.
 ## Cloning the Assignment Repo
 
 First, accept the assignement on Github Classroom.  It's available via the
-CS203 [home page](https://www.escalab.org/classes/cs203-2024sp/).
+cse142l [home page](https://www.escalab.org/classes/cse142l-2024su/).
 
 This will set you up with a copy of the starter repository.
 
 **Note**: Be sure to use the **`ssh`** method to checkout your repo rather than `http`.  Authentication over ssh is much simpler and it's what our tools assume.  If you try to use HTTP, you'll get something like:
 
 ```
-[htseng@datahub]$ git clone https://github.com/CS203UCR/2024sp-cs203-welcome-hungweitseng.git
-Cloning into '2024sp-cs203-welcome-hungweitseng'...
+[htseng@datahub]$ git clone https://github.com/cse142ucsd/2024su-cse142l-welcome-hungweitseng.git
+Cloning into '2024su-cse142l-welcome-hungweitseng'...
 Username for 'https://github.com': hungweitseng
 Password for 'https://hungweitseng@github.com': 
 remote: Support for password authentication was removed on August 13, 2021.
 remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
-fatal: Authentication failed for 'https://github.com/CS203UCR/2024sp-cs203-welcome-hungweitseng.git/'
+fatal: Authentication failed for 'https://github.com/cse142ucsd/2024su-cse142l-welcome-hungweitseng.git/'
 ```
 ![clone with ssh](images/clone-with-ssh.png)
 
@@ -105,6 +105,6 @@ https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-
 
 ## Open the Notebook
 
-Switch to the tab with file browser and navigate to the directory you just cloned.   Click on `Assignment.ipynb` to open the lab and get to work!
+Switch to the tab with file browser and navigate to the directory you just cloned.   Click on `assignment-lab.ipynb` to open the lab and get to work!
 
 **Note:** You'll need to trust the notebook when Jupyter asks.
